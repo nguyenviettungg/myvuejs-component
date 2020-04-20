@@ -28,7 +28,7 @@ Vue.component("product", {
               Almost sold out!
             </p>
             <p v-else :class="{textMute: !instock}">Out of Stock</p>
-            <!--<p>User is premium : {{ premium }}</p>-->
+            <p>User is premium : {{ premium }}</p>
             <p>Shipping : {{ shipping }}</p>
             <ul>
               <li v-for="detail in details">{{detail}}</li>
